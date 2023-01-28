@@ -1,0 +1,45 @@
+body {
+    background: url("../image/nature.jpg") no-repeat center/cover;
+    line-height: 100%;
+}
+.radius {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    background: blue;
+    margin: 0 5px;
+}
+.input-first {
+    box-shadow: 0 0 8px #030303;
+    transition: .7s;
+}
+.input-first:hover {
+    transform: translateY(-10px);
+}
+.input-second {
+    box-shadow: 0 0 8px #030303;
+    transition: .7s;
+}
+.input-second:hover {
+    transform: translateY(-10px);
+}
+
+.ul {
+    box-shadow: 0 0 3px #030303;
+}
+.add-btn {
+    transition: .7s;
+    background: blue;
+}
+.add-btn:hover {
+    background: white;
+    color: blue;
+}
+
+.ruler {
+    color: red;
+}
