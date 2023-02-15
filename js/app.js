@@ -39,6 +39,7 @@ btn.addEventListener("click", () => {
         tasks = [...tasks, newTask]
         localStorage.setItem("task", JSON.stringify(tasks))
         addTask()
+        
     }
 
 
